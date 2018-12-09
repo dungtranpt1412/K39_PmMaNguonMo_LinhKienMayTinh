@@ -8,7 +8,7 @@ class hoaDonbean {
     var $thanhTien;
     var $ngayMua;
     
-    function __construct($maHoaDon, $maKhachHang, $maLinhKien, $soLuongMua, $thanhTien, $ngayMua) {
+    function __construct($maHoaDon, $maKhachHang, $maLinhKien, $soLuongMua, $ngayMua) {
         $this->maHoaDon = $maHoaDon;
         $this->maKhachHang = $maKhachHang;
         $this->maLinhKien = $maLinhKien;

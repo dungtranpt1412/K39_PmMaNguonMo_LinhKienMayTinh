@@ -26,6 +26,7 @@ class Cart{
             foreach ($this->lsItemInCart as $item){
                 if($item->maLinhKien==$itemInCart->maLinhKien){
                     $item->soLuongMua+=$itemInCart->soLuongMua;
+                    $item->thanhTien=$item->soLuongMua * $item->donGia;
                     return;
                 }
             }
